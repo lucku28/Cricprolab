@@ -1,78 +1,70 @@
-/* Type your code here */
-@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
 
 * {
-  margin: 0px;
-  padding: 0px;
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 body {
   font-family: "Nunito Sans", sans-serif;
-  background-image: url(assets/background-image1.png);
+  background-image: url(./assets/background-image1.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: bottom right;
 }
 
-.logo {
-  padding: 15px 50px;
-  float: right;
-}
-
-header {
-  padding: 80px 40px 10px 40px;
-  margin-left: 2em;
-}
-
 h1 {
   font-size: 50px;
-  font-weight: 900;
+  font-weight: 2000px;
+  text-shadow: 2px black;
 }
 
-h2 {
+h3 {
+  font-size: 25px;
   color: grey;
 }
 
-.score {
-  margin-left: 37px;
-  background-color: white;
-  width: 900px;
-  /* height:350px; */
+.id1 {
+  color: white;
 }
 
-.head {
-  background-color: rgb(223, 35, 35);
-  display: flex;
-  padding: 10px;
-  margin-left: 2em;
-}
-
-.head,
-th {
-  color: rgb(255, 255, 255);
-}
-
-.two-table {
-  margin: 0px;
-  padding: 0px;
-
-  margin-left: 2em;
-}
-
-td {
-  padding-right: 50px;
-}
-
-.hr {
-  border: 2px solid red;
+.id2 {
+  color: rgb(182, 180, 180);
 }
 
 a {
+  color: blue;
   text-decoration: none;
 }
 
-/* change the font family and spacing as per your project font */
-.footer {
-  padding: 30px;
-  margin-left: 3em;
+.Logo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 15px;
+  margin-left: 1350px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  background-color: white;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  border-right: none;
+  margin-bottom: 5px;
+}
+
+th {
+  border: 0px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  border-right: none;
+  margin-bottom: 5px;
 }
